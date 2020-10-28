@@ -45,12 +45,14 @@ height: auto;
 }
 
 .img-flued{
+  object-fit: cover;
   width: 200px;
   height: 200px;
 }
 
 .col-12{
   height: 720px;
+  display: inline-block;
 }
 .portfolio01-img{
   object-fit: cover;
@@ -70,6 +72,7 @@ padding-left: 0;
 .col-md-6{
   margin: 0 auto;
 }
+
 
 
 /*--------------------------------
@@ -107,6 +110,9 @@ letter-spacing: .2em;
   margin-bottom: 5px;
   }
 
+.container{
+  position: relative;
+}
 /*--------------------------------
 　グローバルナビ
 ---------------------------------*/
@@ -242,4 +248,15 @@ Footer
   
   }
   
+}
+
+@media(min-width:768px)and (max-width:1200px){
+  #worksb{
+    margin-top: 200px;
+  }
+}
+@media(min-width: 320px)and ( max-width:768px){
+  #worksb{
+    margin-top: 300px;
+  }
 }
