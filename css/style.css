@@ -59,6 +59,7 @@ height: auto;
   object-position: top;
   width:100%;
   height: 630px;
+  border: 1px solid dee2e6;
 }
 ul{
 list-style: none;
@@ -73,7 +74,13 @@ padding-left: 0;
   margin: 0 auto;
 }
 
+.centering {
+  justify-content: space-around;
+}
 
+.black {
+  border-color: #242a2e;
+}
 
 /*--------------------------------
 　ヘッダーロゴ・背景写真
